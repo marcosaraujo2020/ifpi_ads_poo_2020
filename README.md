@@ -1,2 +1,2 @@
-# ifpi_ads_poo_2020
- Programação Orientada a Objeto
+# ifpi-ads-poo-2020
+ Disciplina_Programação_Orientada_a_Objeto
