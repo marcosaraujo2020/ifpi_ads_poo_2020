@@ -41,6 +41,40 @@ public class Exemplo {
 }
 ```
 
+### Questão 04
+
+Com a execução do código abaixo, o resultado foi a impressão do número 1 três vezes. Isso se deu pelo fato de na estrutura do switch como não tem o `break` para cada caso, ele seguiu testanto as outras.
+
+```
+public class Questao4 {
+
+	public static void main(String[] args) {
+		int op = 1;
+		
+		switch (op) {
+			case 1: System.out.println(op);
+			case 2: System.out.println(op);
+			default: System.out.println(op);
+		}
+	}
+}
+```
+
+### Questão 05
+
+A correção do código acontece incluindo apenas a soma de a+b detro dos parênteses >> `(a+b)`.
+
+```
+public class Questao5 {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 1;
+		System.out.println("Soma: " + (a + b));
+	}
+}
+```
+
 ### Questão 09
 
 A abordagem mais estruturada é a quesatão 06 e as questoes 07 e 08 são as orientadas a objetos se  tornando mais modularizada e reutilizavel. A orientada a objeto se torna mais burocrática devido a necessidade de codificar mais e criar outros arquivos, no entanto tem o poder de organização comparada a estruturada.
