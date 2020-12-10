@@ -7,5 +7,4 @@ public class Questao5 {
 		int b = 1;
 		System.out.println("Soma: " + (a + b));
 	}
-
 }
