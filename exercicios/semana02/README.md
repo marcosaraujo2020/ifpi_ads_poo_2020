@@ -22,6 +22,25 @@ public class Aplicacao {
 }
 ```
 
+### Questão 02
+
+Ao executar codigo abaixo, teremos como resultado o valor 9. Isso acontece porque no JAVA realiza-se o operador curto circuito no qual na primeira condição do operador lógico `&& (and)` sendo falsa o resultado ja cai no print do else, ou seja `a-b >> 9 - 0 = 9`.
+
+```
+public class Exemplo {
+
+	public static void main(String[] args) {
+		int a = 9;
+		int b = 0;
+		if ((a > 11) && (++b <= 100)) {
+			System.out.println(a*b);
+		} else {
+			System.out.println(a-b);
+		}
+	}
+}
+```
+
 ### Questão 09
 
 A abordagem mais estruturada é a quesatão 06 e as questoes 07 e 08 são as orientadas a objetos se  tornando mais modularizada e reutilizavel. A orientada a objeto se torna mais burocrática devido a necessidade de codificar mais e criar outros arquivos, no entanto tem o poder de organização comparada a estruturada.
