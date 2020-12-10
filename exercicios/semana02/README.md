@@ -22,7 +22,7 @@ public class Aplicacao {
 }
 ```
 
-### Questão 02
+### Questão 03
 
 Ao executar codigo abaixo, teremos como resultado o valor 9. Isso acontece porque no JAVA realiza-se o operador curto circuito no qual na primeira condição do operador lógico `&& (and)` sendo falsa o resultado ja cai no print do else, ou seja `a-b >> 9 - 0 = 9`.
 
