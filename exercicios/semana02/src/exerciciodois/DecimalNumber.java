@@ -2,13 +2,12 @@ package exerciciodois;
 
 public class DecimalNumber {
 	double num;
-	
-	double parteInteira(double num) {
+		
+	int parteInteira() {
 		return (int) num;
 	}
 	
-	double parteDecimal(double num) {
+	double parteDecimal() {
 		return num - (int) num;
 	}
-
 }

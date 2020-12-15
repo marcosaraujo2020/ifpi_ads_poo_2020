@@ -3,18 +3,18 @@ package exerciciodois;
 public class NumberUtils {
 	int num;
 	
-	boolean isPair(int num) {
+	boolean isPair() {
 		return num % 2 == 0;
 	}
 	
-	boolean isOdd(int num) {
+	boolean isOdd() {
 		if (num % 2 != 0) {
 			return false;
 		}
 		return false;
 	}
 	
-	boolean isPrime(int num) {
+	boolean isPrime() {
 		int total = 0;
 		for (int i = 1; i <= num; i++) {
 			if (num % i == 0) {
@@ -29,17 +29,21 @@ public class NumberUtils {
 		
 	}
 	
-	void printCount(int num) {
+	String printCount() {
 		for (int i = 0; i <= num; i++) {
 			System.out.print(i + " ");
 		}	
 	}
 	
-	void printReverseCount(int num) {
-		for (int i = num; i >= 1; i--) {
-			System.out.print(i + " ");
+	String printReverseCount() {
+		int i = num;
+		String s = null;
+		s = s + " ";
+		while (i >= 0) {
+			s = s + i + " ";
+			i--;
 		}
-		
+		return s;
 	}
 
 }

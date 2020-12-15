@@ -5,8 +5,9 @@ public class TestaDesconto {
 	public static void main(String[] args) {
 		Desconto res = new Desconto();
 		
-		System.out.println("Valor com desconto é R$ " + res.calcula(120.00, 10) + " reais.");
-
+		res.valor = 120.00;
+		res.porcentagem = 10;
+		
+		System.out.println("Valor com desconto é R$ " + res.calcula() + " reais.");
 	}
-
 }
