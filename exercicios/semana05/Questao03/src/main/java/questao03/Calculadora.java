@@ -20,6 +20,16 @@ public class Calculadora {
     public void substrair() {
         int subtracao = this.operando1 - this.operando2;
         System.out.println("O resultado da subtração é " + subtracao);
-    }    
+    }
+
+    public void multiplicar() {
+        int multiplicacao = this.operando1 * this.operando2;
+        System.out.println("O resultado da multiplicação é " + multiplicacao);
+    }
+    
+    public void dividir() {
+        int divisao = this.operando1 / this.operando2;
+        System.out.println("O resultado da divisão é " + divisao);
+    }
     
 }

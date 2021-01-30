@@ -7,6 +7,8 @@ public class TestaCalculadora {
         
         c.somar();
         c.substrair();
+        c.multiplicar();
+        c.dividir();
         
         
     }
