@@ -31,7 +31,7 @@ public class Banco {
         return c;
     }
 
-    private int consultarIndice(String numero) {
+    public int consultarIndice(String numero) {
         int pos = -1;
         for (int i = 0; i < getIndice(); i++) {
             if (this.getContas()[i].getNumero().equals(numero)) {
