@@ -1,6 +1,6 @@
 package questao03;
 
-    public abstract class Animal {
+    public class Animal {
         private String especie;
 
         

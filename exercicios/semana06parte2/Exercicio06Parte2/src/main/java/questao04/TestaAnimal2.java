@@ -42,6 +42,9 @@ public class TestaAnimal2 {
         O correto seria: Peixe p = new Peixe();
         
         */
+           
+        Peixe p = new Animal();
+           
     }
     
 }
