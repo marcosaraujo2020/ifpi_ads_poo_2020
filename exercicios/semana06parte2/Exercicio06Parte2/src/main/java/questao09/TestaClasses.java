@@ -6,11 +6,15 @@ import questao08.Professor;
 
 public class TestaClasses {
     public static void main(String[] args) {
+        /*
         Pessoa p1 = new Pessoa();
         Pessoa p2 = new Pessoa("Marcos", "Araújo Silva");
         Funcionario f = new Funcionario();
+        */
+        
         Professor prof = new Professor();
         
+        /*
         p1.setNome("Antonio");
         p1.setSobrenome("Silva Santos");
         
@@ -18,12 +22,13 @@ public class TestaClasses {
         f.setSobrenome(p2.getSobrenome());
         f.setMatricula(73831);
         f.setSalario(12000.0f);
+        */
         
-        prof.setNome(f.getNome());
-        prof.setSobrenome(f.getSobrenome());
-        prof.setMatricula(f.getMatricula());
+        prof.setNome("Marcos");
+        prof.setSobrenome("Araújo Silva");
+        prof.setMatricula(73589);
         prof.setTitulacao("Mestre em Química");
-        prof.setSalario(f.getSalario());
+        prof.setSalario(12500);
        
         System.out.println("----------------------------------------------");
         System.out.println("Nome do Funcionario: " + prof.getNomeCompleto());
@@ -33,8 +38,6 @@ public class TestaClasses {
         System.out.println("----------------------------------------------");
         System.out.println("Primeira Parcela Salário: R$ " + prof.getSalarioPrimeiraParcela());
         System.out.println("Segunda Parcela Salário: R$ " + prof.getSalarioSegundaParcela());
-        
-        
         
     }
     

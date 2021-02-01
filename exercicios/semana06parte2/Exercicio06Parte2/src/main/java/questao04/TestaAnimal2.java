@@ -43,7 +43,7 @@ public class TestaAnimal2 {
         
         */
            
-        Peixe p = new Animal();
+        //Peixe p = new Animal();
            
     }
     
